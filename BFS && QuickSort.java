@@ -24,11 +24,6 @@ class LevelOrder {
 		tree.root.left.right = new Node( 5 );
 		System.out.println( "The leverlorder traversal of this tree is ");
 		 Level( root ); 
-	
-	// public static leverOrder( Node root ){
-		// int height = Height( root );
-		// for( int i = 1 ; i < h + 1 ; i++ )
-			// printNode( root , i );
 	}
 	public static void Level( Node root ){
 		   Queue<Node> queue = new LinkedList< Node >(); 
@@ -44,36 +39,12 @@ class LevelOrder {
 			
 		}	
 	
-	
-	
-	
-	she got the mercides benz she called friend 
-	how they dance some sance to remembvere some sanc 
-	please brigme
-			
-			
-			
-	
-	
 	}
 	
 	
-	// public static int Height( Node root ){
-		// int high1 = 0;
-		// int high2 = 0;
-		// if ( root == null )
-			// return 0 ;
-		
-		// high1 = Height( root.left );
-		// high2 = Height( root.right );
-		
-		// System.out.println( high1 + " " + high2);
-		// return high1 > high2 ? high1  + 1: high2 + 1 ;
-	// }
+
 	
-	
-	
-	
+	 // QuickSort
 	
 import java.util.*;
 import java.lang.*;
@@ -129,74 +100,14 @@ class GFG
 	     
 	     
 	     
-	 }
+ }
+	 
+	 
+	
 	 
 	 
 	 
 	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-
-	 
-	 
-	 
-	 public static int getCountOfNode(Node root,int l, int h)
-{
-    Queue< Node > q = new LinkedList<>();
-    q.offer( root );
-    int count = 0;
-    while( !q.isEmpty() ){
-        Node store = q.poll();
-        if( store.data > l && store.data < h )
-            count++;
-        if( store.left != null )
-            q.offer( store.left );
-        if( store.right != null )
-            q.offer( store.right );
-    }
-    return count ;
-}
-
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-}
-		
 		
 	
 					
